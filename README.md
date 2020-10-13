@@ -12,9 +12,16 @@ Grails練習用アプリ AmazonWebServiceのSimpleNotificationServiceを使っ�
     * 通知先のメールアドレスを追加できる
 * ヘルプ
     * エラー対応など
+## 構成図
+![通知送信画面](images/diagram.png "通知送信画面")
 ## 課題・問題
 * AWS-SNSの一部の機能しか使えてないので今後他の機能も使いこなす。
 ## 謝辞
 * [Frame illust](https://frame-illust.com/)
     * 初心者（若葉）マークの画像を使用させていただきました。ありがとうございます。
+## 備考
+```
+Failed to register to APNs: Error Domain=NSCocoaErrorDomain Code=3000 "Appの有効な“aps-environment”エンタイトルメント文字列が見つかりません" UserInfo={NSLocalizedDescription=Appの有効な“aps-environment”エンタイトルメント文字列が見つかりません}
+```
+
 

@@ -110,9 +110,9 @@ environments:
             dbCreate: create-drop
             url: jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
         # 通知により送信されるメッセージ １３文字以上は設定しないでください。
-        message: 'aiueo'
+        message: 'デフォルトメッセージ'
         # 通知を行うトピック
-        topicArn: ""
+        topicArn: "ここに、AWS Simple Notification Service の トピックARNを設定してください"
     test:
         dataSource:
             dbCreate: update

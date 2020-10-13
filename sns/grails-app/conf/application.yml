@@ -110,16 +110,9 @@ environments:
             dbCreate: create-drop
             url: jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
         # 通知により送信されるメッセージ １３文字以上は設定しないでください。
-        # message: '{"default": "テスト通知0", "email": "メールテスト","APNS_SANDBOX":{"aps":{"alert": "こやまてすと2"}}}'
-
         message: 'aiueo'
-        #  '{
-         #     "default": "サンプル通知",
-          #    "email": "サンプル通知",
-           #   "APNS_SANDBOX": "{\"aps\":{\"alert\": \"てすと\",\"sound\": \"default\"} }"
-         # }'
         # 通知を行うトピック
-        topicArn: "arn:aws:sns:ap-northeast-1:156207684339:TestTopic2"
+        topicArn: ""
     test:
         dataSource:
             dbCreate: update

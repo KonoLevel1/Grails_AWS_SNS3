@@ -19,10 +19,18 @@ Grails練習用アプリ AmazonWebServiceのSimpleNotificationServiceを使っ�
 * デバイストークンを自動で登録できない。
 ## 謝辞
 * [Frame illust](https://frame-illust.com/)
-    * 初心者（若葉）マークの画像を使用させていただきました。ありがとうございます。
+    * 初心者（若葉）マークの画像を使用させていただきました。
+* [Takahiro Octopress Blog](https://grandbig.github.io/blog/2019/09/28/ios-devicetoken-2/)
+    * Swiftでのデバイストークン取得のコードを参考にさせていただきました。
 ## 備考
+### アプリを実行した時に、下記のようなエラーが発生する
 ```
 Failed to register to APNs: Error Domain=NSCocoaErrorDomain Code=3000 "Appの有効な“aps-environment”エンタイトルメント文字列が見つかりません" UserInfo={NSLocalizedDescription=Appの有効な“aps-environment”エンタイトルメント文字列が見つかりません}
 ```
+* Xcode > Signing & Capabilities に Push Notificationsが登録されていない可能性
+    * 登録されていなければ、PushNotificationsを追加する
+    * 開発者登録（有償）をしていないと、Push Notificationsは利用できない
+
+
 
 

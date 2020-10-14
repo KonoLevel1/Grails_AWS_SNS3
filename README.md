@@ -16,6 +16,7 @@ Grails練習用アプリ AmazonWebServiceのSimpleNotificationServiceを使っ�
 ![通知送信画面](images/diagram.png "通知送信画面")
 ## 課題・問題
 * AWS-SNSの一部の機能しか使えてないので今後他の機能も使いこなす。
+* デバイストークンを自動で登録できない。
 ## 謝辞
 * [Frame illust](https://frame-illust.com/)
     * 初心者（若葉）マークの画像を使用させていただきました。ありがとうございます。

@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E1892ED2535893E005FA6C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1892EC2535893E005FA6C0 /* AppDelegate.swift */; };
-		8E1892EF2535893E005FA6C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1892EE2535893E005FA6C0 /* SceneDelegate.swift */; };
-		8E1892F12535893E005FA6C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1892F02535893E005FA6C0 /* ViewController.swift */; };
-		8E1892F42535893E005FA6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1892F22535893E005FA6C0 /* Main.storyboard */; };
-		8E1892F625358941005FA6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1892F525358941005FA6C0 /* Assets.xcassets */; };
-		8E1892F925358941005FA6C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1892F725358941005FA6C0 /* LaunchScreen.storyboard */; };
-		8E18930425358941005FA6C0 /* DeviceTokenGetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18930325358941005FA6C0 /* DeviceTokenGetTests.swift */; };
-		8E18930F25358941005FA6C0 /* DeviceTokenGetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18930E25358941005FA6C0 /* DeviceTokenGetUITests.swift */; };
+		8EAB89CD2535A40D00979990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB89CC2535A40D00979990 /* AppDelegate.swift */; };
+		8EAB89CF2535A40D00979990 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB89CE2535A40D00979990 /* SceneDelegate.swift */; };
+		8EAB89D12535A40D00979990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB89D02535A40D00979990 /* ViewController.swift */; };
+		8EAB89D42535A40D00979990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB89D22535A40D00979990 /* Main.storyboard */; };
+		8EAB89D62535A40E00979990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB89D52535A40E00979990 /* Assets.xcassets */; };
+		8EAB89D92535A40E00979990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB89D72535A40E00979990 /* LaunchScreen.storyboard */; };
+		8EAB89E42535A40E00979990 /* DeviceTokenGetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB89E32535A40E00979990 /* DeviceTokenGetTests.swift */; };
+		8EAB89EF2535A40F00979990 /* DeviceTokenGetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB89EE2535A40F00979990 /* DeviceTokenGetUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E18930025358941005FA6C0 /* PBXContainerItemProxy */ = {
+		8EAB89E02535A40E00979990 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E1892E12535893E005FA6C0 /* Project object */;
+			containerPortal = 8EAB89C12535A40D00979990 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E1892E82535893E005FA6C0;
+			remoteGlobalIDString = 8EAB89C82535A40D00979990;
 			remoteInfo = DeviceTokenGet;
 		};
-		8E18930B25358941005FA6C0 /* PBXContainerItemProxy */ = {
+		8EAB89EB2535A40F00979990 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E1892E12535893E005FA6C0 /* Project object */;
+			containerPortal = 8EAB89C12535A40D00979990 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E1892E82535893E005FA6C0;
+			remoteGlobalIDString = 8EAB89C82535A40D00979990;
 			remoteInfo = DeviceTokenGet;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E1892E92535893E005FA6C0 /* DeviceTokenGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceTokenGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1892EC2535893E005FA6C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E1892EE2535893E005FA6C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E1892F02535893E005FA6C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E1892F32535893E005FA6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E1892F525358941005FA6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E1892F825358941005FA6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E1892FA25358941005FA6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E1892FF25358941005FA6C0 /* DeviceTokenGetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceTokenGetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E18930325358941005FA6C0 /* DeviceTokenGetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTokenGetTests.swift; sourceTree = "<group>"; };
-		8E18930525358941005FA6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E18930A25358941005FA6C0 /* DeviceTokenGetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceTokenGetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E18930E25358941005FA6C0 /* DeviceTokenGetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTokenGetUITests.swift; sourceTree = "<group>"; };
-		8E18931025358941005FA6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAB89C92535A40D00979990 /* DeviceTokenGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceTokenGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAB89CC2535A40D00979990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EAB89CE2535A40D00979990 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EAB89D02535A40D00979990 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EAB89D32535A40D00979990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EAB89D52535A40E00979990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EAB89D82535A40E00979990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EAB89DA2535A40E00979990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAB89DF2535A40E00979990 /* DeviceTokenGetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceTokenGetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAB89E32535A40E00979990 /* DeviceTokenGetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTokenGetTests.swift; sourceTree = "<group>"; };
+		8EAB89E52535A40E00979990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAB89EA2535A40F00979990 /* DeviceTokenGetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceTokenGetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAB89EE2535A40F00979990 /* DeviceTokenGetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTokenGetUITests.swift; sourceTree = "<group>"; };
+		8EAB89F02535A40F00979990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E1892E62535893E005FA6C0 /* Frameworks */ = {
+		8EAB89C62535A40D00979990 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E1892FC25358941005FA6C0 /* Frameworks */ = {
+		8EAB89DC2535A40E00979990 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E18930725358941005FA6C0 /* Frameworks */ = {
+		8EAB89E72535A40F00979990 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E1892E02535893E005FA6C0 = {
+		8EAB89C02535A40D00979990 = {
 			isa = PBXGroup;
 			children = (
-				8E1892EB2535893E005FA6C0 /* DeviceTokenGet */,
-				8E18930225358941005FA6C0 /* DeviceTokenGetTests */,
-				8E18930D25358941005FA6C0 /* DeviceTokenGetUITests */,
-				8E1892EA2535893E005FA6C0 /* Products */,
+				8EAB89CB2535A40D00979990 /* DeviceTokenGet */,
+				8EAB89E22535A40E00979990 /* DeviceTokenGetTests */,
+				8EAB89ED2535A40F00979990 /* DeviceTokenGetUITests */,
+				8EAB89CA2535A40D00979990 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E1892EA2535893E005FA6C0 /* Products */ = {
+		8EAB89CA2535A40D00979990 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E1892E92535893E005FA6C0 /* DeviceTokenGet.app */,
-				8E1892FF25358941005FA6C0 /* DeviceTokenGetTests.xctest */,
-				8E18930A25358941005FA6C0 /* DeviceTokenGetUITests.xctest */,
+				8EAB89C92535A40D00979990 /* DeviceTokenGet.app */,
+				8EAB89DF2535A40E00979990 /* DeviceTokenGetTests.xctest */,
+				8EAB89EA2535A40F00979990 /* DeviceTokenGetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E1892EB2535893E005FA6C0 /* DeviceTokenGet */ = {
+		8EAB89CB2535A40D00979990 /* DeviceTokenGet */ = {
 			isa = PBXGroup;
 			children = (
-				8E1892EC2535893E005FA6C0 /* AppDelegate.swift */,
-				8E1892EE2535893E005FA6C0 /* SceneDelegate.swift */,
-				8E1892F02535893E005FA6C0 /* ViewController.swift */,
-				8E1892F22535893E005FA6C0 /* Main.storyboard */,
-				8E1892F525358941005FA6C0 /* Assets.xcassets */,
-				8E1892F725358941005FA6C0 /* LaunchScreen.storyboard */,
-				8E1892FA25358941005FA6C0 /* Info.plist */,
+				8EAB89CC2535A40D00979990 /* AppDelegate.swift */,
+				8EAB89CE2535A40D00979990 /* SceneDelegate.swift */,
+				8EAB89D02535A40D00979990 /* ViewController.swift */,
+				8EAB89D22535A40D00979990 /* Main.storyboard */,
+				8EAB89D52535A40E00979990 /* Assets.xcassets */,
+				8EAB89D72535A40E00979990 /* LaunchScreen.storyboard */,
+				8EAB89DA2535A40E00979990 /* Info.plist */,
 			);
 			path = DeviceTokenGet;
 			sourceTree = "<group>";
 		};
-		8E18930225358941005FA6C0 /* DeviceTokenGetTests */ = {
+		8EAB89E22535A40E00979990 /* DeviceTokenGetTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E18930325358941005FA6C0 /* DeviceTokenGetTests.swift */,
-				8E18930525358941005FA6C0 /* Info.plist */,
+				8EAB89E32535A40E00979990 /* DeviceTokenGetTests.swift */,
+				8EAB89E52535A40E00979990 /* Info.plist */,
 			);
 			path = DeviceTokenGetTests;
 			sourceTree = "<group>";
 		};
-		8E18930D25358941005FA6C0 /* DeviceTokenGetUITests */ = {
+		8EAB89ED2535A40F00979990 /* DeviceTokenGetUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8E18930E25358941005FA6C0 /* DeviceTokenGetUITests.swift */,
-				8E18931025358941005FA6C0 /* Info.plist */,
+				8EAB89EE2535A40F00979990 /* DeviceTokenGetUITests.swift */,
+				8EAB89F02535A40F00979990 /* Info.plist */,
 			);
 			path = DeviceTokenGetUITests;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E1892E82535893E005FA6C0 /* DeviceTokenGet */ = {
+		8EAB89C82535A40D00979990 /* DeviceTokenGet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E18931325358941005FA6C0 /* Build configuration list for PBXNativeTarget "DeviceTokenGet" */;
+			buildConfigurationList = 8EAB89F32535A40F00979990 /* Build configuration list for PBXNativeTarget "DeviceTokenGet" */;
 			buildPhases = (
-				8E1892E52535893E005FA6C0 /* Sources */,
-				8E1892E62535893E005FA6C0 /* Frameworks */,
-				8E1892E72535893E005FA6C0 /* Resources */,
+				8EAB89C52535A40D00979990 /* Sources */,
+				8EAB89C62535A40D00979990 /* Frameworks */,
+				8EAB89C72535A40D00979990 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,68 +145,68 @@
 			);
 			name = DeviceTokenGet;
 			productName = DeviceTokenGet;
-			productReference = 8E1892E92535893E005FA6C0 /* DeviceTokenGet.app */;
+			productReference = 8EAB89C92535A40D00979990 /* DeviceTokenGet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8E1892FE25358941005FA6C0 /* DeviceTokenGetTests */ = {
+		8EAB89DE2535A40E00979990 /* DeviceTokenGetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E18931625358941005FA6C0 /* Build configuration list for PBXNativeTarget "DeviceTokenGetTests" */;
+			buildConfigurationList = 8EAB89F62535A40F00979990 /* Build configuration list for PBXNativeTarget "DeviceTokenGetTests" */;
 			buildPhases = (
-				8E1892FB25358941005FA6C0 /* Sources */,
-				8E1892FC25358941005FA6C0 /* Frameworks */,
-				8E1892FD25358941005FA6C0 /* Resources */,
+				8EAB89DB2535A40E00979990 /* Sources */,
+				8EAB89DC2535A40E00979990 /* Frameworks */,
+				8EAB89DD2535A40E00979990 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E18930125358941005FA6C0 /* PBXTargetDependency */,
+				8EAB89E12535A40E00979990 /* PBXTargetDependency */,
 			);
 			name = DeviceTokenGetTests;
 			productName = DeviceTokenGetTests;
-			productReference = 8E1892FF25358941005FA6C0 /* DeviceTokenGetTests.xctest */;
+			productReference = 8EAB89DF2535A40E00979990 /* DeviceTokenGetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E18930925358941005FA6C0 /* DeviceTokenGetUITests */ = {
+		8EAB89E92535A40F00979990 /* DeviceTokenGetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E18931925358941005FA6C0 /* Build configuration list for PBXNativeTarget "DeviceTokenGetUITests" */;
+			buildConfigurationList = 8EAB89F92535A40F00979990 /* Build configuration list for PBXNativeTarget "DeviceTokenGetUITests" */;
 			buildPhases = (
-				8E18930625358941005FA6C0 /* Sources */,
-				8E18930725358941005FA6C0 /* Frameworks */,
-				8E18930825358941005FA6C0 /* Resources */,
+				8EAB89E62535A40F00979990 /* Sources */,
+				8EAB89E72535A40F00979990 /* Frameworks */,
+				8EAB89E82535A40F00979990 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E18930C25358941005FA6C0 /* PBXTargetDependency */,
+				8EAB89EC2535A40F00979990 /* PBXTargetDependency */,
 			);
 			name = DeviceTokenGetUITests;
 			productName = DeviceTokenGetUITests;
-			productReference = 8E18930A25358941005FA6C0 /* DeviceTokenGetUITests.xctest */;
+			productReference = 8EAB89EA2535A40F00979990 /* DeviceTokenGetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E1892E12535893E005FA6C0 /* Project object */ = {
+		8EAB89C12535A40D00979990 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					8E1892E82535893E005FA6C0 = {
+					8EAB89C82535A40D00979990 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
-					8E1892FE25358941005FA6C0 = {
+					8EAB89DE2535A40E00979990 = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 8E1892E82535893E005FA6C0;
+						TestTargetID = 8EAB89C82535A40D00979990;
 					};
-					8E18930925358941005FA6C0 = {
+					8EAB89E92535A40F00979990 = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 8E1892E82535893E005FA6C0;
+						TestTargetID = 8EAB89C82535A40D00979990;
 					};
 				};
 			};
-			buildConfigurationList = 8E1892E42535893E005FA6C0 /* Build configuration list for PBXProject "DeviceTokenGet" */;
+			buildConfigurationList = 8EAB89C42535A40D00979990 /* Build configuration list for PBXProject "DeviceTokenGet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E1892E02535893E005FA6C0;
-			productRefGroup = 8E1892EA2535893E005FA6C0 /* Products */;
+			mainGroup = 8EAB89C02535A40D00979990;
+			productRefGroup = 8EAB89CA2535A40D00979990 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E1892E82535893E005FA6C0 /* DeviceTokenGet */,
-				8E1892FE25358941005FA6C0 /* DeviceTokenGetTests */,
-				8E18930925358941005FA6C0 /* DeviceTokenGetUITests */,
+				8EAB89C82535A40D00979990 /* DeviceTokenGet */,
+				8EAB89DE2535A40E00979990 /* DeviceTokenGetTests */,
+				8EAB89E92535A40F00979990 /* DeviceTokenGetUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E1892E72535893E005FA6C0 /* Resources */ = {
+		8EAB89C72535A40D00979990 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1892F925358941005FA6C0 /* LaunchScreen.storyboard in Resources */,
-				8E1892F625358941005FA6C0 /* Assets.xcassets in Resources */,
-				8E1892F42535893E005FA6C0 /* Main.storyboard in Resources */,
+				8EAB89D92535A40E00979990 /* LaunchScreen.storyboard in Resources */,
+				8EAB89D62535A40E00979990 /* Assets.xcassets in Resources */,
+				8EAB89D42535A40D00979990 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E1892FD25358941005FA6C0 /* Resources */ = {
+		8EAB89DD2535A40E00979990 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E18930825358941005FA6C0 /* Resources */ = {
+		8EAB89E82535A40F00979990 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,60 +254,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E1892E52535893E005FA6C0 /* Sources */ = {
+		8EAB89C52535A40D00979990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1892F12535893E005FA6C0 /* ViewController.swift in Sources */,
-				8E1892ED2535893E005FA6C0 /* AppDelegate.swift in Sources */,
-				8E1892EF2535893E005FA6C0 /* SceneDelegate.swift in Sources */,
+				8EAB89D12535A40D00979990 /* ViewController.swift in Sources */,
+				8EAB89CD2535A40D00979990 /* AppDelegate.swift in Sources */,
+				8EAB89CF2535A40D00979990 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E1892FB25358941005FA6C0 /* Sources */ = {
+		8EAB89DB2535A40E00979990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E18930425358941005FA6C0 /* DeviceTokenGetTests.swift in Sources */,
+				8EAB89E42535A40E00979990 /* DeviceTokenGetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E18930625358941005FA6C0 /* Sources */ = {
+		8EAB89E62535A40F00979990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E18930F25358941005FA6C0 /* DeviceTokenGetUITests.swift in Sources */,
+				8EAB89EF2535A40F00979990 /* DeviceTokenGetUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E18930125358941005FA6C0 /* PBXTargetDependency */ = {
+		8EAB89E12535A40E00979990 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E1892E82535893E005FA6C0 /* DeviceTokenGet */;
-			targetProxy = 8E18930025358941005FA6C0 /* PBXContainerItemProxy */;
+			target = 8EAB89C82535A40D00979990 /* DeviceTokenGet */;
+			targetProxy = 8EAB89E02535A40E00979990 /* PBXContainerItemProxy */;
 		};
-		8E18930C25358941005FA6C0 /* PBXTargetDependency */ = {
+		8EAB89EC2535A40F00979990 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E1892E82535893E005FA6C0 /* DeviceTokenGet */;
-			targetProxy = 8E18930B25358941005FA6C0 /* PBXContainerItemProxy */;
+			target = 8EAB89C82535A40D00979990 /* DeviceTokenGet */;
+			targetProxy = 8EAB89EB2535A40F00979990 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8E1892F22535893E005FA6C0 /* Main.storyboard */ = {
+		8EAB89D22535A40D00979990 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E1892F32535893E005FA6C0 /* Base */,
+				8EAB89D32535A40D00979990 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8E1892F725358941005FA6C0 /* LaunchScreen.storyboard */ = {
+		8EAB89D72535A40E00979990 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E1892F825358941005FA6C0 /* Base */,
+				8EAB89D82535A40E00979990 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8E18931125358941005FA6C0 /* Debug */ = {
+		8EAB89F12535A40F00979990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		8E18931225358941005FA6C0 /* Release */ = {
+		8EAB89F22535A40F00979990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,7 +431,7 @@
 			};
 			name = Release;
 		};
-		8E18931425358941005FA6C0 /* Debug */ = {
+		8EAB89F42535A40F00979990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -450,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		8E18931525358941005FA6C0 /* Release */ = {
+		8EAB89F52535A40F00979990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -469,7 +469,7 @@
 			};
 			name = Release;
 		};
-		8E18931725358941005FA6C0 /* Debug */ = {
+		8EAB89F72535A40F00979990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -491,7 +491,7 @@
 			};
 			name = Debug;
 		};
-		8E18931825358941005FA6C0 /* Release */ = {
+		8EAB89F82535A40F00979990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,7 +513,7 @@
 			};
 			name = Release;
 		};
-		8E18931A25358941005FA6C0 /* Debug */ = {
+		8EAB89FA2535A40F00979990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,7 +533,7 @@
 			};
 			name = Debug;
 		};
-		8E18931B25358941005FA6C0 /* Release */ = {
+		8EAB89FB2535A40F00979990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -556,43 +556,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E1892E42535893E005FA6C0 /* Build configuration list for PBXProject "DeviceTokenGet" */ = {
+		8EAB89C42535A40D00979990 /* Build configuration list for PBXProject "DeviceTokenGet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E18931125358941005FA6C0 /* Debug */,
-				8E18931225358941005FA6C0 /* Release */,
+				8EAB89F12535A40F00979990 /* Debug */,
+				8EAB89F22535A40F00979990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E18931325358941005FA6C0 /* Build configuration list for PBXNativeTarget "DeviceTokenGet" */ = {
+		8EAB89F32535A40F00979990 /* Build configuration list for PBXNativeTarget "DeviceTokenGet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E18931425358941005FA6C0 /* Debug */,
-				8E18931525358941005FA6C0 /* Release */,
+				8EAB89F42535A40F00979990 /* Debug */,
+				8EAB89F52535A40F00979990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E18931625358941005FA6C0 /* Build configuration list for PBXNativeTarget "DeviceTokenGetTests" */ = {
+		8EAB89F62535A40F00979990 /* Build configuration list for PBXNativeTarget "DeviceTokenGetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E18931725358941005FA6C0 /* Debug */,
-				8E18931825358941005FA6C0 /* Release */,
+				8EAB89F72535A40F00979990 /* Debug */,
+				8EAB89F82535A40F00979990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E18931925358941005FA6C0 /* Build configuration list for PBXNativeTarget "DeviceTokenGetUITests" */ = {
+		8EAB89F92535A40F00979990 /* Build configuration list for PBXNativeTarget "DeviceTokenGetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E18931A25358941005FA6C0 /* Debug */,
-				8E18931B25358941005FA6C0 /* Release */,
+				8EAB89FA2535A40F00979990 /* Debug */,
+				8EAB89FB2535A40F00979990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E1892E12535893E005FA6C0 /* Project object */;
+	rootObject = 8EAB89C12535A40D00979990 /* Project object */;
 }

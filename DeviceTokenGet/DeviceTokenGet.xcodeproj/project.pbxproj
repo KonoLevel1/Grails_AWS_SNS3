@@ -49,6 +49,8 @@
 		8EAB89EA2535A40F00979990 /* DeviceTokenGetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceTokenGetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAB89EE2535A40F00979990 /* DeviceTokenGetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTokenGetUITests.swift; sourceTree = "<group>"; };
 		8EAB89F02535A40F00979990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAB89FF2535A46600979990 /* DeviceTokenGetRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeviceTokenGetRelease.entitlements; sourceTree = "<group>"; };
+		8EAB8A182535AA8B00979990 /* DeviceTokenGet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeviceTokenGet.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 		8EAB89CB2535A40D00979990 /* DeviceTokenGet */ = {
 			isa = PBXGroup;
 			children = (
+				8EAB8A182535AA8B00979990 /* DeviceTokenGet.entitlements */,
+				8EAB89FF2535A46600979990 /* DeviceTokenGetRelease.entitlements */,
 				8EAB89CC2535A40D00979990 /* AppDelegate.swift */,
 				8EAB89CE2535A40D00979990 /* SceneDelegate.swift */,
 				8EAB89D02535A40D00979990 /* ViewController.swift */,
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeviceTokenGet/DeviceTokenGet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D74JKWP7R6;
 				INFOPLIST_FILE = DeviceTokenGet/Info.plist;
@@ -443,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DeviceTokenGet2020.DeviceTokenGet;
+				PRODUCT_BUNDLE_IDENTIFIER = DeviceTokenGet2020;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,6 +460,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeviceTokenGet/DeviceTokenGetRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D74JKWP7R6;
 				INFOPLIST_FILE = DeviceTokenGet/Info.plist;
@@ -462,8 +469,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DeviceTokenGet2020.DeviceTokenGet;
+				PRODUCT_BUNDLE_IDENTIFIER = GetDeviceToken2020;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
